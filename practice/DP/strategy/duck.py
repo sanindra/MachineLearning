@@ -1,4 +1,3 @@
-
 class Duck(object):
 
     def __init__(self, fb, qb):
