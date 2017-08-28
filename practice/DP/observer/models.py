@@ -1,8 +1,7 @@
-
-
 class Subject(object):
 
     def register_observer(self, o):
+        # type: (object) -> object
         raise NotImplementedError()
 
     def remove_observer(self, o):
